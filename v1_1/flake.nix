@@ -11,6 +11,7 @@
   inputs.src-nmiline-v1_1.ref   = "refs/tags/v1.1";
   inputs.src-nmiline-v1_1.owner = "mzteruru52";
   inputs.src-nmiline-v1_1.repo  = "NmiLine";
+  inputs.src-nmiline-v1_1.dir   = "";
   inputs.src-nmiline-v1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
