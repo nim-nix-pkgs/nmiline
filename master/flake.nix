@@ -11,7 +11,6 @@
   inputs.src-nmiline-master.ref   = "refs/heads/master";
   inputs.src-nmiline-master.owner = "mzteruru52";
   inputs.src-nmiline-master.repo  = "NmiLine";
-  inputs.src-nmiline-master.dir   = "";
   inputs.src-nmiline-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
